@@ -49,17 +49,17 @@ You can ["watch" the repository](https://docs.github.com/en/github/managing-subs
 
 ### How can I get help?
 
-If you have questions about the code and cannot find an answer here, start by looking at [issues](https://github.com/kntnt/kntnt-page-blocks/issues) and [pull requests](https://github.com/kntnt/kntnt-page-blocks/pulls). If you still cannot find the answer, feel free to ask in the [issue tracker](https://github.com/kntnt/kntnt-page-blocks/issues) at Github.
+If you have questions about the code and cannot find an answer here, start by looking at [issues](https://github.com/kntnt/kntnt-bricks/issues) and [pull requests](https://github.com/kntnt/kntnt-bricks/pulls). If you still cannot find the answer, feel free to ask in the [issue tracker](https://github.com/kntnt/kntnt-bricks/issues) at Github.
 
 ### How can I report a bug?
 
-If you have found a potential bug, please report it on the plugin’s [issue tracker](https://github.com/kntnt/kntnt-page-blocks/issues) at Github.
+If you have found a potential bug, please report it on the plugin’s [issue tracker](https://github.com/kntnt/kntnt-bricks/issues) at Github.
 
 ### How can I contribute?
 
 Contributions to the code or documentation are much appreciated.
 
-If you are unfamiliar with Git, please date it as a new issue on the plugin’s [issue tracker](https://github.com/kntnt/kntnt-page-blocks/issues) at Github.
+If you are unfamiliar with Git, please date it as a new issue on the plugin’s [issue tracker](https://github.com/kntnt/kntnt-bricks/issues) at Github.
 
 If you are familiar with Git, please make a pull request.
 
