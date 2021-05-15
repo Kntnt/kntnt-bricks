@@ -1,0 +1,270 @@
+<div class="blocks">
+	[flex page-blocks]
+
+		[layout block-100]
+			[pass fields=width,height-min,height-max,fg-1,valign-1,fg-extra-1,bg-1,fg-position-1]
+				<div class="block layout-100 {WIDTH} {HEIGHT-MIN} {HEIGHT-MAX}">
+					[switch field=content-1]
+						[when none]
+							<div class="part">
+								<div class="layer fg"></div>
+							</div>
+						[/when]
+						[when image]
+							<div class="part">
+								[field image_class='layer bg' image=image-1 size=large]
+							</div>
+						[/when]
+						[when text]
+							<div class="part {VALIGN-1} {FG-1} {BG-1}">
+								<div class="layer fg {FG-POSITION-1}"><div>[field text-1]</div></div>
+							</div>
+						[/when]
+						[when text-on-image]
+							<div class="part {VALIGN-1} {FG-1} {FG-EXTRA-1}">
+								[field image_class='layer bg' image=image-1 size=large]
+								<div class="layer fg {FG-POSITION-1}"><div>[field text-1]</div></div>
+							</div>
+						[/when]
+					[/switch]
+				</div>
+			[/pass]
+		[/layout]
+
+		[layout block-67-33]
+			[pass fields=width,height-min,height-max,stack-order,fg-1,valign-1,fg-extra-1,bg-1,fg-2,valign-2,fg-extra-2,bg-2]
+				<div class="block layout-67-33 {WIDTH} {HEIGHT-MIN} {HEIGHT-MAX} {STACK-ORDER}">
+					[switch field=content-1]
+						[when none]
+							<div class="part">
+								<div class="layer fg"></div>
+							</div>
+						[/when]
+						[when image]
+							<div class="part">
+								[field image_class='layer bg' image=image-1 size=large]
+							</div>
+						[/when]
+						[when text]
+							<div class="part {VALIGN-1} {FG-1} {BG-1}">
+								<div class="layer fg"><div>[field text-1]</div></div>
+							</div>
+						[/when]
+						[when text-on-image]
+							<div class="part {VALIGN-1} {FG-1} {FG-EXTRA-1}">
+								[field image_class='layer bg' image=image-1 size=large]
+								<div class="layer fg"><div>[field text-1]</div></div>
+							</div>
+						[/when]
+					[/switch]
+					[switch field=content-2]
+						[when none]
+							<div class="part">
+								<div class="layer fg"></div>
+							</div>
+						[/when]
+						[when image]
+							<div class="part">
+								[field image_class='layer bg' image=image-2 size=small]
+							</div>
+						[/when]
+						[when text]
+							<div class="part {VALIGN-2} {FG-2} {BG-2}">
+								<div class="layer fg"><div>[field text-2]</div></div>
+							</div>
+						[/when]
+						[when text-on-image]
+							<div class="part {VALIGN-2} {FG-2} {FG-EXTRA-2}">
+								[field image_class='layer bg' image=image-2 size=small]
+								<div class="layer fg"><div>[field text-2]</div></div>
+							</div>
+						[/when]
+					[/switch]
+				</div>
+			[/pass]
+		[/layout]
+
+		[layout block-33-67]
+			[pass fields=width,height-min,height-max,stack-order,fg-1,valign-1,fg-extra-1,bg-1,fg-2,valign-2,fg-extra-2,bg-2]
+				<div class="block layout-33-67 {WIDTH} {HEIGHT-MIN} {HEIGHT-MAX} {STACK-ORDER}">
+					[switch field=content-1]
+						[when none]
+							<div class="part">
+								<div class="layer fg"></div>
+							</div>
+						[/when]
+						[when image]
+							<div class="part">
+								[field image_class='layer bg' image=image-1 size=small]
+							</div>
+						[/when]
+						[when text]
+							<div class="part {VALIGN-1} {FG-1} {BG-1}">
+								<div class="layer fg"><div>[field text-1]</div></div>
+							</div>
+						[/when]
+						[when text-on-image]
+							<div class="part {VALIGN-1} {FG-1} {FG-EXTRA-1}">
+								[field image_class='layer bg' image=image-1 size=small]
+								<div class="layer fg"><div>[field text-1]</div></div>
+							</div>
+						[/when]
+					[/switch]
+					[switch field=content-2]
+						[when none]
+							<div class="part">
+								<div class="layer fg"></div>
+							</div>
+						[/when]
+						[when image]
+							<div class="part">
+								[field image_class='layer bg' image=image-2 size=large]
+							</div>
+						[/when]
+						[when text]
+							<div class="part {VALIGN-2} {FG-2} {BG-2}">
+								<div class="layer fg"><div>[field text-2]</div></div>
+							</div>
+						[/when]
+						[when text-on-image]
+							<div class="part {VALIGN-2} {FG-2} {FG-EXTRA-2}">
+								[field image_class='layer bg' image=image-2 size=large]
+								<div class="layer fg"><div>[field text-2]</div></div>
+							</div>
+						[/when]
+					[/switch]
+				</div>
+			[/pass]
+		[/layout]
+
+		[layout block-50-50]
+			[pass fields=width,height-min,height-max,stack-order,fg-1,valign-1,fg-extra-1,bg-1,fg-2,valign-2,fg-extra-2,bg-2]
+				<div class="block layout-50-50 {WIDTH} {HEIGHT-MIN} {HEIGHT-MAX} {STACK-ORDER}">
+					[switch field=content-1]
+						[when none]
+							<div class="part">
+								<div class="layer fg"></div>
+							</div>
+						[/when]
+						[when image]
+							<div class="part">
+								[field image_class='layer bg' image=image-1 size=medium]
+							</div>
+						[/when]
+						[when text]
+							<div class="part {VALIGN-1} {FG-1} {BG-1}">
+								<div class="layer fg {VALIGN-1}"><div>[field text-1]</div></div>
+							</div>
+						[/when]
+						[when text-on-image]
+							<div class="part {VALIGN-1} {FG-1} {FG-EXTRA-1}">
+								[field image_class='layer bg' image=image-1 size=medium]
+								<div class="layer fg"><div>[field text-1]</div></div>
+							</div>
+						[/when]
+					[/switch]
+					[switch field=content-2]
+						[when none]
+							<div class="part">
+								<div class="layer fg"></div>
+							</div>
+						[/when]
+						[when image]
+							<div class="part">
+								[field image_class='layer bg' image=image-2 size=medium]
+							</div>
+						[/when]
+						[when text]
+							<div class="part {VALIGN-2} {FG-2} {BG-2}">
+								<div class="layer fg {VALIGN-2}"><div>[field text-2]</div></div>
+							</div>
+						[/when]
+						[when text-on-image]
+							<div class="part {VALIGN-2} {FG-2} {FG-EXTRA-2}">
+								[field image_class='layer bg' image=image-2 size=medium]
+								<div class="layer fg"><div>[field text-2]</div></div>
+							</div>
+						[/when]
+					[/switch]
+				</div>
+			[/pass]
+		[/layout]
+
+		[layout block-33-33-33]
+			[pass fields=width,height-min,height-max,stack-order,fg-1,valign-1,fg-extra-1,bg-1,fg-2,valign-2,fg-extra-2,bg-2,fg-3,valign-3,fg-extra3,bg-3]
+				<div class="block layout-33-33-33 {WIDTH} {HEIGHT-MIN} {HEIGHT-MAX} {STACK-ORDER}">
+					[switch field=content-1]
+						[when none]
+							<div class="part">
+								<div class="layer fg"></div>
+							</div>
+						[/when]
+						[when image]
+							<div class="part">
+								[field image_class='layer bg' image=image-1 size=medium]
+							</div>
+						[/when]
+						[when text]
+							<div class="part {VALIGN-1} {FG-1} {BG-1}">
+								<div class="layer fg"><div>[field text-1]</div></div>
+							</div>
+						[/when]
+						[when text-on-image]
+							<div class="part {VALIGN-1} {FG-1} {FG-EXTRA-1}">
+								[field image_class='layer bg' image=image-1 size=medium]
+								<div class="layer fg"><div>[field text-1]</div></div>
+							</div>
+						[/when]
+					[/switch]
+					[switch field=content-2]
+						[when none]
+							<div class="part">
+								<div class="layer fg"></div>
+							</div>
+						[/when]
+						[when image]
+							<div class="part">
+								[field image_class='layer bg' image=image-2 size=medium]
+							</div>
+						[/when]
+						[when text]
+							<div class="part {VALIGN-2} {FG-2} {BG-2}">
+								<div class="layer fg"><div>[field text-2]</div></div>
+							</div>
+						[/when]
+						[when text-on-image]
+							<div class="part {VALIGN-2} {FG-2} {FG-EXTRA-2}">
+								[field image_class='layer bg' image=image-2 size=medium]
+								<div class="layer fg"><div>[field text-2]</div></div>
+							</div>
+						[/when]
+					[/switch]
+					[switch field=content-3]
+						[when none]
+							<div class="part">
+								<div class="layer fg"></div>
+							</div>
+						[/when]
+						[when image]
+							<div class="part">
+								[field image_class='layer bg' image=image-3 size=medium]
+							</div>
+						[/when]
+						[when text]
+							<div class="part {VALIGN-3} {FG-3} {BG-3}">
+								<div class="layer fg"><div>[field text-3]</div></div>
+							</div>
+						[/when]
+						[when text-on-image]
+							<div class="part {VALIGN-3} {FG-3} {FG-EXTRA-3}">
+								[field image_class='layer bg' image=image-3 size=medium]
+								<div class="layer fg"><div>[field text-3]</div></div>
+							</div>
+						[/when]
+					[/switch]
+				</div>
+			[/pass]
+		[/layout]
+
+	[/flex]
+</div>
