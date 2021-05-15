@@ -26,10 +26,10 @@ If you only need a few pages with the brick capability, this approach is good en
 
 1. Add [kntnt-page-blocks.css](https://github.com/Kntnt/kntnt-page-blocks/blob/main/kntnt-page-blocks.css) to your site. You can do that with a plugin like [Kntnt Style Editor](https://github.com/Kntnt/kntnt-style-editor) or [Simple Custom CSS and JS](https://wordpress.org/plugins/custom-css-js/), with WordPress’ Customizer or by adding it to your theme (which should be a child theme).
 2. Install ACF and CCS.
-3. Import acf.json into ACF.
+3. Import [acf.json](https://github.com/Kntnt/kntnt-bricks/blob/main/acf.json) into ACF.
 4. Edit the location rules of the ACF field group *Page blocks* to your liking. (By default, it’s applied to all pages.)
 5. Create a new page that matches the rule you set up.
-6. Add the content of custom-content-shortcode.txt as body text.
+6. Add the content of [custom-content-shortcode.txt](https://github.com/Kntnt/kntnt-bricks/blob/main/custom-content-shortcode.txt) as body text.
 7. Add as many bricks as you want.
 8. Save. View. And be enchanted.
 
